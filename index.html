@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <h1> My Calculator</h1>
+<div class="container">
+        <input type ="text" id="display">  
+    
+     <div class = "gridcontainer">
+        <div class = " item item1"> 
+                <button class= "btn1"  value = "1" onclick="displayValue('1')">1</button> 
+        </div> 
+        <div class = "item item2"> 
+                <button class= "btn2"  value = "2" onclick="displayValue('2')">2</button> 
+        </div> 
+        <div class = "item item3"> 
+                <button class= "btn3"  value = "3" onclick="displayValue('3')">3</button> 
+        </div> 
+        <div class = "item item4"> 
+                <button class= "btn4"  value = "+" onclick="displayValue('+')">+</button> 
+        </div> 
+         <div class = "item itemminus"> 
+                <button class= "btnminus"  value = "-" onclick="displayValue('-')">-</button> 
+        </div>
+        <div class = "item item4"> 
+                <button class= "btn4"  value ="4" onclick="displayValue('4')">4</button> 
+            </div>
+        <div class = "item item5"> 
+            <button class= "btn5"  value ="5" onclick="displayValue('5')">5</button> 
+        </div>
+        <div class = "item item6"> 
+            <button class= "btn6"  value = "6" onclick="displayValue('6')">6</button> 
+        </div>
+        <div class = "item itemX"> 
+            <button class= "btnX"  value = "*" onclick="displayValue('*')">X</button> 
+        </div>
+        <div class = " item itemdivide"> 
+            <button class= "btndivide"  value ="/" onclick="displayValue('/')">/</button> 
+        </div>
+        <div class = " item item7"> 
+            <button class= "btn7"  value ="7" onclick="displayValue('7')">7</button> 
+        </div> 
+        <div class = " item item8"> 
+            <button class= "btn8"  value ="8" onclick="displayValue('8')">8</button> 
+        </div>
+        <div class = " item item9"> 
+            <button class= "btn9"  value ="9" onclick="displayValue('9')">9</button> 
+        </div>
+        <div class = " item item0">                         
+            <button class= "btn0"  value ="0" onclick="displayValue('0')">0</button> 
+        </div>
+        <div class = " item itemequal"> 
+            <button id= "btnequal"  onclick="solve()">=</button> 
+        </div> 
+        <div class = " item itemclr"> 
+            <button class= "btnclr"  value ="c" onclick="clr()">Ac</button> 
+        </div>
+        <div class = " item itemdot"> 
+            <button class= "btndot"  value ="." onclick="displayValue('.')">.</button> 
+        </div>
+        <div class = "item itemBack"> 
+                <button class= "btnBack"  onclick="backspace()"><<</button> 
+            </div>
+        
+    </div>
+</div>    
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
